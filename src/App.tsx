@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css'
 function App() {
   return (
-    <div className="container ">
+    <div className="container">
+      <div className="">
       <form>
         <div className="form-floating">
           <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
@@ -14,14 +15,16 @@ function App() {
         </div>
         <div className="mb-3 "></div>
         <button className="btn btn-primary w-100 py-2" type="submit">Login</button>
-        <div className="mb-1 "></div>
+        <div className="mb-2 "></div>
         <a className="icon-link icon-link-hover" href="#">
-          Forget password?
+          Forgot password?
           <svg className="bi" aria-hidden="true"><use xlinkHref="#arrow-right"></use></svg>
         </a>
+        <div className="border-top my-3"></div>
         <div className="mb-1 "></div>
         <button type="button" className="btn btn-success">Create new account</button>
       </form>
+      </div>
     </div>
   );
 }
