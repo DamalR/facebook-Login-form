@@ -19,6 +19,8 @@ function App() {
           Forget password?
           <svg className="bi" aria-hidden="true"><use xlinkHref="#arrow-right"></use></svg>
         </a>
+        <div className="mb-1 "></div>
+        <button type="button" className="btn btn-success">Create new account</button>
       </form>
     </div>
   );
